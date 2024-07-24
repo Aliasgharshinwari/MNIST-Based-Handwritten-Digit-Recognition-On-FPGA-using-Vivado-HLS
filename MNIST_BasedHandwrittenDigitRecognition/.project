@@ -90,7 +90,7 @@
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/.apc/.tb</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/.apc/.tb</location>
 		</link>
 		<link>
 			<name>.reference/ap_fixed.h</name>
@@ -110,37 +110,37 @@
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.tcls</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/main.cpp</name>
 			<type>1</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/main.cpp</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/main.cpp</location>
 		</link>
 		<link>
 			<name>source/mnist_image_array.h</name>
 			<type>1</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/mnist_image_array.h</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/mnist_image_array.h</location>
 		</link>
 		<link>
 			<name>testbench/tb_main.cpp</name>
 			<type>1</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/tb_main.cpp</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/tb_main.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/solution1.directive</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/directives.tcl</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/script.tcl</location>
+			<location>D:/MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS/MNIST_BasedHandwrittenDigitRecognition/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="main.cpp" path="D:\VivadoProjects\MNIST_BasedHandwrittenDigitRecognition\main.cpp"/>
-    <originFiles name="mnist_image_array.h" path="D:\VivadoProjects\MNIST_BasedHandwrittenDigitRecognition\mnist_image_array.h"/>
+    <originFiles name="main.cpp" path="D:\MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS\MNIST_BasedHandwrittenDigitRecognition\main.cpp"/>
+    <originFiles name="mnist_image_array.h" path="D:\MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS\MNIST_BasedHandwrittenDigitRecognition\mnist_image_array.h"/>
   </source>
   <testbench>
-    <originFiles name="tb_main.cpp" path="D:\VivadoProjects\MNIST_BasedHandwrittenDigitRecognition\tb_main.cpp"/>
+    <originFiles name="tb_main.cpp" path="D:\MNIST-Based-Handwritten-Digit-Recognition-On-FPGA-using-Vivado-HLS\MNIST_BasedHandwrittenDigitRecognition\tb_main.cpp"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>
