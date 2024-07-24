@@ -1,0 +1,4 @@
+obj/main.cpp_pre.cpp.tb.o:main.cpp_pre.cpp.tb.cpp:(.text$_Z15xil_fpo_exp_fltf[xil_fpo_exp_flt(float)]+0x14): undefined reference to `xip_fpo_exp_flt'
+obj/main.cpp_pre.cpp.tb.o:main.cpp_pre.cpp.tb.cpp:(.text$_Z13xil_fpo_exp_dd[xil_fpo_exp_d(double)]+0x27): undefined reference to `xip_fpo_exp_d'
+collect2: ld returned 1 exit status
+make: *** [cosim.tv.exe] Error 1

@@ -1,0 +1,192 @@
+@I [HLS-0] Workspace D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1 opened at Thu Jul 11 21:45:36 +0500 2024
+@I [HLS-100] Command "config_clock -quiet -name default -period 10 -default=false "
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [HLS-100] Command 'config_clock' returned 0; elapsed 0Total elapsed time: 0.890 sec.
+@I [HLS-100] Command "open_platform DefaultPlatform "
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0.001Total elapsed time: 0.893 sec.
+@I [HLS-100] Command "import_lib D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/spartan6/spartan6 "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx.lib "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/xilinx_interface.lib "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/plb46.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.896 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/fsl.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.897 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/axi4.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.898 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/maxi.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.899 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 0.899 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/dsp48.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.900 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/ip/xfft.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.901 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/ip/xfir.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 0.901 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 0.904 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx_old.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 0.907 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx.hlp "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/target_info.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 0.917 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/xilinx_interface.hlp "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/maxi.hlp "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.918 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.918 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/dsp48.hlp "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.919 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006Total elapsed time: 0.920 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/spartan6/dsp48a.hlp "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.921 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 0.921 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 15822} {LUT 63288} {FF 126576} {DSP48A 180} {BRAM 268}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 0.921 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 0.921 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.034Total elapsed time: 0.927 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/spartan6/spartan6.gen "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/virtex.gen "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx.gen "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/plb46.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 0.932 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/fsl.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.933 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/axi4.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 0.938 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/nativeAXI4.gen "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/saxilite.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 0.944 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/maxi.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009Total elapsed time: 0.953 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.015Total elapsed time: 0.953 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/scripts/xilinxcoregen.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019Total elapsed time: 0.971 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/interface/XilEDKCoreGen.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.026Total elapsed time: 0.997 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/ip/util.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 0.998 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/ip/xfft.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.192Total elapsed time: 1.191 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/ip/xfir.gen "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/tps/tcl/tcllib1.11.1/struct/list.tcl "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 1.216 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 1.217 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/tps/tcl/tcllib1.11.1/math/bignum.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 1.223 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.039Total elapsed time: 1.229 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.301Total elapsed time: 1.229 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/dsp48.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 1.231 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.304Total elapsed time: 1.231 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.305Total elapsed time: 1.231 sec.
+@I [HLS-100] Command "open_platform DefaultPlatform "
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 1.231 sec.
+@I [HLS-100] Command "import_lib D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/spartan6/spartan6_fpv6 "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx_fpv6_old_s6.lib "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx_fpv6.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 1.233 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 1.234 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.013Total elapsed time: 1.244 sec.
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/spartan6/spartan6_fpv6.gen "
+@I [HLS-100] Command "source D:/Xilinx/Vivado_HLS/2014.2/common/technology/xilinx/common/xilinx_fpv6.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 1.246 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 1.247 sec.
+@I [HLS-100] Command "set_part xc6slx9csg324-2 "
+@I [HLS-100] Command "add_library xilinx/spartan6/spartan6:xc6slx9:csg324:-2 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.250 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 1.250 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.251 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 1430} {LUT 5720} {FF 11440} {DSP48A 16} {BRAM 32}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 1.251 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 1.251 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.019Total elapsed time: 1.267 sec.
+@I [HLS-100] Command "add_library xilinx/spartan6/spartan6_fpv6 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.270 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 1.270 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.004Total elapsed time: 1.272 sec.
+@I [HLS-10] Setting target device to 'xc6slx9csg324-2'
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.024Total elapsed time: 1.272 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.272 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 1430} {LUT 5720} {FF 11440} {DSP48A 16} {BRAM 32}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 1.272 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 1.272 sec.
+@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.461Total elapsed time: 1.274 sec.
+@I [HLS-100] Command "set_part xc6slx9csg324-2 "
+@I [HLS-100] Command "add_library xilinx/spartan6/spartan6:xc6slx9:csg324:-2 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.276 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 1.276 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.279 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 1430} {LUT 5720} {FF 11440} {DSP48A 16} {BRAM 32}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 1.279 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 1.279 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.02Total elapsed time: 1.295 sec.
+@I [HLS-100] Command "add_library xilinx/spartan6/spartan6_fpv6 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 1.297 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 1.297 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.003Total elapsed time: 1.299 sec.
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.024Total elapsed time: 1.299 sec.
+@I [HLS-100] Command "create_clock -period 10 -name default "
+@I [HLS-100] Command 'create_clock' returned 0; elapsed 0.003Total elapsed time: 1.302 sec.
+@I [HLS-100] Command "source ./MNIST_BasedHandwrittenDigitRecognition/solution1/directives.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 1.307 sec.
+@I [HLS-100] Command "csynth_design "
+@I [HLS-100] Command "elaborate -effort=medium -skip_syncheck=0 -lm=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 "
+@I [HLS-10] Analyzing design file 'MNIST_BasedHandwrittenDigitRecognition/main.cpp' ... 
+@0 [HLS-0] Analyzing design file 'MNIST_BasedHandwrittenDigitRecognition/main.cpp' ... 
+@I [HLS-0] Compiling one TU...
+@I [HLS-0] 
+Checking before pre-process: exec clang -fno-limit-debug-info -gcc-toolchain "D:/Xilinx/Vivado_HLS/2014.2/msys" -hls    -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__cdecl=   -I "D:/Xilinx/Vivado_HLS/2014.2/win64/tools/systemc/include" -I "D:/Xilinx/Vivado_HLS/2014.2/include" -I "D:/Xilinx/Vivado_HLS/2014.2/include/ap_sysc" -fexceptions "MNIST_BasedHandwrittenDigitRecognition/main.cpp"  -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.00.o"
+
+@I [HLS-0] Syntax Checker time: 44 seconds per iteration
+@I [HLS-0] 
+Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "D:/Xilinx/Vivado_HLS/2014.2/msys" -hls -fno-exceptions  -D__llvm__  -CC -E "MNIST_BasedHandwrittenDigitRecognition/main.cpp"     -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "D:/Xilinx/Vivado_HLS/2014.2/common/technology/autopilot" -I "D:/Xilinx/Vivado_HLS/2014.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D "__asm__(...)="  -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp"
+
+@I [HLS-0] GCC PP time: 0 seconds per iteration
+@I [HLS-100] Command "list_core -type functional_unit "
+@I [HLS-100] Command 'list_core' returned 0; elapsed 0Total elapsed time: 46.475 sec.
+@I [HLS-0] Marker-Pragma convertor: D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp.CXX 1
+@I [HLS-0] 
+Source processor: exec D:/Xilinx/Vivado_HLS/2014.2/tps/win64/jre/bin/java -Xmx512m -classpath   "D:/Xilinx/Vivado_HLS/2014.2/lib/classes/autopilot.sourceprocessor.jar;D:/Xilinx/Vivado_HLS/2014.2/lib/classes/org.eclipse.cdt.core_5.3.0.xilinx_patch.jar;D:/Xilinx/Vivado_HLS/2014.2/lib/classes/org.eclipse.core.runtime_3.7.0.v20110110.jar;D:/Xilinx/Vivado_HLS/2014.2/lib/classes/org.eclipse.equinox.common_3.6.0.v20110523.jar;D:/Xilinx/Vivado_HLS/2014.2/lib/classes/com.ibm.icu_4.4.2.v20110208.jar;D:/Xilinx/Vivado_HLS/2014.2/lib/classes/jargs.jar;D:/Xilinx/Vivado_HLS/2014.2/win64/tools/eclipse/plugins/org.eclipse.emf.common_2.7.0.v20120127-1122.jar;D:/Xilinx/Vivado_HLS/2014.2/win64/tools/eclipse/plugins/org.eclipse.emf.ecore_2.7.0.v20120127-1122.jar;D:/Xilinx/Vivado_HLS/2014.2/win64/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.7.0.v20120127-1122.jar;D:/Xilinx/Vivado_HLS/2014.2/win64/tools/eclipse/plugins/com.autoesl.autopilot.ui.directiveFileModel_1.0.0.jar;D:/Xilinx/Vivado_HLS/2014.2/win64/tools/eclipse/plugins/com.autoesl.autopilot.ui.common_1.0.0.jar"  autopilot.sourceprocessor.CParser  "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp.ap-line.cpp"  -m "neural_network" -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp.ap-cdt.cpp" --ad --pc --pp --directive D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/solution1.directive --source D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/main.cpp --error D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db --funcunit "AddSub AddSubnS Mul MulnS Mul2S Mul3S Mul4S Mul5S Mul6S DivnS FDiv FSqrt DDiv DSqrt DRecip FAddSub_nodsp FMul_nodsp FMul_meddsp FMul_fulldsp FMul_maxdsp FRSqrt_nodsp FRSqrt_fulldsp FRecip_nodsp FRecip_fulldsp DAddSub_nodsp DMul_nodsp DMul_fulldsp DMul_maxdsp" --ce --tcl D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db --ve --vetcl D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db --lp --ca --es --gf --df --pd --p2d D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db --sd --scff D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/.systemc_flag
+
+@I [HLS-0] Marker-Pragma convertor: D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pp.0.cpp.ap-cdt.cpp D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pragma.0.cpp D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pragma.0.cpp.ap-line.CXX 0
+@I [HLS-100] Command "source D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/pragma.status.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 72.25 sec.
+@I [HLS-0] CDT processor time: 25 seconds per iteration
+@I [HLS-0] Pragma handling time: 0 seconds per iteration
+@I [HLS-0] 
+Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "D:/Xilinx/Vivado_HLS/2014.2/msys" -hls -fno-exceptions  -D__llvm__  -CC -E "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pragma.1.cpp"     -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "D:/Xilinx/Vivado_HLS/2014.2/common/technology/autopilot" -I "D:/Xilinx/Vivado_HLS/2014.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D "__asm__(...)="  -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pragma.2.cpp"
+
+@I [HLS-0] exec clang -fno-limit-debug-info -gcc-toolchain D:/Xilinx/Vivado_HLS/2014.2/msys -hls -fno-exceptions  -D__llvm__  -w  "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.pragma.2.cpp"    -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "D:/Xilinx/Vivado_HLS/2014.2/common/technology/autopilot" -I "D:/Xilinx/Vivado_HLS/2014.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -g -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.g.bc"
+@I [HLS-100] Command "source D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/ve_warning.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 102.609 sec.
+@I [HLS-10] Validating synthesis directives ...
+@0 [HLS-0] Validating synthesis directives ...
+@I [HLS-100] Command "source D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/pragma.status.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 102.612 sec.
+@I [HLS-0] Linking all ...
+@I [HLS-0] exec llvm-ld  "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.bc"  -disable-opt  -LD:/Xilinx/Vivado_HLS/2014.2/win64/lib -lm_basic -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/a.o.pre"
+@I [HLS-0] Link time: 6 seconds per iteration
+@I [HLS-0] Linking all ...
+@I [HLS-0] exec llvm-ld  "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/main.g.bc"  -disable-opt  -LD:/Xilinx/Vivado_HLS/2014.2/win64/lib -lm_basic -o "D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/a.g.pre"
+@I [HLS-0] Link time: 5 seconds per iteration
+@I [HLS-100] Command "opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 "
+@I [HLS-100] Command "cleanup_all_models "
+@I [HLS-100] Command 'cleanup_all_models' returned 0; elapsed 0Total elapsed time: 113.819 sec.
+@I [HLS-10] Starting code transformations ...
+@0 [HLS-0] Starting code transformations ...
+@I [HLS-0] std xform: transform -hls -share-std-xform -always-inline -promote-dbg-pointer  -interface-preproc  -scalarrepl -mem2reg -keep-read-access -instcombine -dce  -promote-dbg-pointer  -bitop-raise  -indvars -loop-simplify -xunroll  -constprop -instcombine -simplifycfg -indvars  -simplifycfg -dce -globaldce  -basicaa  -simplifycfg -mem2reg -globalopt  -global-constprop -deadargelim -instcombine -simplifycfg  -prune-eh -simplifycfg  -scalarrepl -instcombine -reassociate -licm  -simplifycfg -loop-simplify -indvars -instcombine  -simplifycfg -mem2reg -loop-simplify -indvars -instcombine  -gvn -gvn -instcombine -adce  -break-crit-edges  -simplifycfg -loop-delete  -global-array-opt -dce -dse -adce  -find-syn-modules -top neural_network  -deadargelim  -mem2reg -instcombine -dce  -presyn-prepare -auto-rom-infer  -syn-check -check-rec-only  -find-region -simplifycfg -func-extr -function-inline  -mem2reg -instcombine -dce   -gvn -adce -adse  -constprop -instcombine -bit-constprop  -instcombine -dce -simplifycfg -bitop-raise  -simplifycfg -dce -loop-delete  -globalopt -global-privatize -mem2reg -dce  -global-constprop -pointer-simplify -constprop -dce  -func-inst  -promote-dbg-pointer  -norm-name   D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/a.g.0.bc -o D:/VivadoProjects/MNIST_BasedHandwrittenDigitRecognition/solution1/.autopilot/db/a.g.1.bc -f  -phase std-opt

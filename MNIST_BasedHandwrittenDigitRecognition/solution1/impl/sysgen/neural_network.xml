@@ -1,0 +1,1397 @@
+
+{
+  'fileSets' => [
+    {
+      'files' => [
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/ips/faddsub_v6.vhd'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_faddfsub_32ns_32ns_32_5_no_dsp.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/ips/fcmp_v6.vhd'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_fcmp_32ns_32ns_1_3.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/ips/fdiv_v6.vhd'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_fdiv_32ns_32ns_32_12.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/ips/fmul_v6.vhd'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_fmul_32ns_32ns_32_7_max_dsp.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/ips/itofp_32_v6.vhd'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_sitofp_32ns_32_5.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_AXILiteS_s_axi.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_control_s_axi.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/ips/fadd_v6.vhd'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_fadd_32ns_32ns_32_5_no_dsp.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_dense_1.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_dense_1_out.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_dense_2.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_dense_2_out.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_gmem_m_axi.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network_softmax.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_sim/neural_network.v'
+        }
+      ],
+      'name' => 'vivado_hls_sim_verilog_fileset'
+    },
+    {
+      'files' => [
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/ips/faddsub_v6.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_faddfsub_32ns_32ns_32_5_no_dsp.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/ips/fcmp_v6.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_fcmp_32ns_32ns_1_3.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/ips/fdiv_v6.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_fdiv_32ns_32ns_32_12.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/ips/fmul_v6.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_fmul_32ns_32ns_32_7_max_dsp.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/ips/itofp_32_v6.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_sitofp_32ns_32_5.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_AXILiteS_s_axi.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_control_s_axi.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/ips/fadd_v6.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_fadd_32ns_32ns_32_5_no_dsp.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_dense_1.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_dense_1_out.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_dense_2.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_dense_2_out.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_gmem_m_axi.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network_softmax.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_sim/neural_network.vhd'
+        }
+      ],
+      'name' => 'vivado_hls_sim_vhdl_fileset'
+    },
+    {
+      'files' => [
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network_ap_faddfsub_3_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network_ap_fadd_3_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network_ap_fcmp_1_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network_ap_fdiv_10_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network_ap_fmul_5_max_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network_ap_sitofp_3_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_faddfsub_32ns_32ns_32_5_no_dsp',
+          'name' => 'verilog_impl/neural_network_faddfsub_32ns_32ns_32_5_no_dsp.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_fcmp_32ns_32ns_1_3',
+          'name' => 'verilog_impl/neural_network_fcmp_32ns_32ns_1_3.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_fdiv_32ns_32ns_32_12',
+          'name' => 'verilog_impl/neural_network_fdiv_32ns_32ns_32_12.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_fmul_32ns_32ns_32_7_max_dsp',
+          'name' => 'verilog_impl/neural_network_fmul_32ns_32ns_32_7_max_dsp.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_sitofp_32ns_32_5',
+          'name' => 'verilog_impl/neural_network_sitofp_32ns_32_5.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_AXILiteS_s_axi',
+          'name' => 'verilog_impl/neural_network_AXILiteS_s_axi.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_control_s_axi',
+          'name' => 'verilog_impl/neural_network_control_s_axi.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_fadd_32ns_32ns_32_5_no_dsp',
+          'name' => 'verilog_impl/neural_network_fadd_32ns_32ns_32_5_no_dsp.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_dense_1',
+          'name' => 'verilog_impl/neural_network_dense_1.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_dense_1_out',
+          'name' => 'verilog_impl/neural_network_dense_1_out.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_dense_2',
+          'name' => 'verilog_impl/neural_network_dense_2.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_dense_2_out',
+          'name' => 'verilog_impl/neural_network_dense_2_out.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_gmem_m_axi',
+          'name' => 'verilog_impl/neural_network_gmem_m_axi.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'neural_network_softmax',
+          'name' => 'verilog_impl/neural_network_softmax.v'
+        },
+        {
+          'fileType' => 'verilogSource',
+          'logicalName' => 'work',
+          'name' => 'verilog_impl/neural_network.v'
+        }
+      ],
+      'name' => 'vivado_hls_impl_verilog_fileset'
+    },
+    {
+      'files' => [
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_ap_faddfsub_3_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_ap_fadd_3_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_ap_fcmp_1_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_ap_fdiv_10_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_ap_fmul_5_max_dsp.ngc'
+        },
+        {
+          'fileType' => 'NGCSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_ap_sitofp_3_no_dsp.ngc'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_faddfsub_32ns_32ns_32_5_no_dsp.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_fcmp_32ns_32ns_1_3.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_fdiv_32ns_32ns_32_12.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_fmul_32ns_32ns_32_7_max_dsp.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_sitofp_32ns_32_5.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_AXILiteS_s_axi.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_control_s_axi.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_fadd_32ns_32ns_32_5_no_dsp.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_dense_1.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_dense_1_out.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_dense_2.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_dense_2_out.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_gmem_m_axi.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network_softmax.vhd'
+        },
+        {
+          'fileType' => 'vhdlSource',
+          'logicalName' => 'work',
+          'name' => 'vhdl_impl/neural_network.vhd'
+        }
+      ],
+      'name' => 'vivado_hls_impl_vhdl_fileset'
+    }
+  ],
+  'DesignConstraint' => {
+      'clk_period' => '10.000000'
+  },
+  'library' => 'VIVADO_HLS',
+  'model' => {
+    'modelParameters'=>{
+        'combinational' => '0',
+        'latency' => '2036121',
+        'II' => 'x'
+    },
+    'ports' => [
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_AWVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_AWREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '6',
+        'name' => 's_axi_AXILiteS_AWADDR',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_WVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_WREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '31',
+        'name' => 's_axi_AXILiteS_WDATA',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '3',
+        'name' => 's_axi_AXILiteS_WSTRB',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_ARVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_ARREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '6',
+        'name' => 's_axi_AXILiteS_ARADDR',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_RVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_RREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '31',
+        'name' => 's_axi_AXILiteS_RDATA',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 's_axi_AXILiteS_RRESP',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_BVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_AXILiteS_BREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 's_axi_AXILiteS_BRESP',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_control_AWVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_control_AWREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '4',
+        'name' => 's_axi_control_AWADDR',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_control_WVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_control_WREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '31',
+        'name' => 's_axi_control_WDATA',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '3',
+        'name' => 's_axi_control_WSTRB',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_control_ARVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_control_ARREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '4',
+        'name' => 's_axi_control_ARADDR',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_control_RVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_control_RREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '31',
+        'name' => 's_axi_control_RDATA',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 's_axi_control_RRESP',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 's_axi_control_BVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 's_axi_control_BREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 's_axi_control_BRESP',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'bool'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'ap_clk',
+        'right' => '0',
+        'type' => 'std_logic'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'bool'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'ap_rst_n',
+        'right' => '0',
+        'type' => 'std_logic'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'interrupt',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_AWVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_AWREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '31',
+        'name' => 'm_axi_gmem_AWADDR',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_AWID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '7',
+        'name' => 'm_axi_gmem_AWLEN',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '2',
+        'name' => 'm_axi_gmem_AWSIZE',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 'm_axi_gmem_AWBURST',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 'm_axi_gmem_AWLOCK',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_AWCACHE',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '2',
+        'name' => 'm_axi_gmem_AWPROT',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_AWQOS',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_AWREGION',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_AWUSER',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_WVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_WREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '31',
+        'name' => 'm_axi_gmem_WDATA',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_WSTRB',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_WLAST',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_WID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_WUSER',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_ARVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_ARREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '31',
+        'name' => 'm_axi_gmem_ARADDR',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_ARID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '7',
+        'name' => 'm_axi_gmem_ARLEN',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '2',
+        'name' => 'm_axi_gmem_ARSIZE',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 'm_axi_gmem_ARBURST',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '1',
+        'name' => 'm_axi_gmem_ARLOCK',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_ARCACHE',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '2',
+        'name' => 'm_axi_gmem_ARPROT',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_ARQOS',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '3',
+        'name' => 'm_axi_gmem_ARREGION',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_ARUSER',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_RVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_RREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '31',
+        'name' => 'm_axi_gmem_RDATA',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_RLAST',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_RID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_RUSER',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '1',
+        'name' => 'm_axi_gmem_RRESP',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_BVALID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'out',
+        'left' => '0',
+        'name' => 'm_axi_gmem_BREADY',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '1',
+        'name' => 'm_axi_gmem_BRESP',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_BID',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      },
+      {
+        'dataType' => {
+          'fractionWidth' => '0',
+          'type' => 'Signed'
+        },
+        'direction' => 'in',
+        'left' => '0',
+        'name' => 'm_axi_gmem_BUSER',
+        'right' => '0',
+        'type' => 'std_logic_vector'
+      }
+    ],
+    'views' => [
+      {
+        'envIdentifier' => 'verilogSource:sysgen.xilinx.com:synthesis',
+        'fileSetRef' => {
+          'localName' => 'vivado_hls_impl_verilog_fileset'
+        },
+        'language' => 'VERILOG',
+        'name' => 'xilinx_verilogsynthesis'
+      },
+      {
+        'envIdentifier' => 'vhdlSource:sysgen.xilinx.com:synthesis',
+        'fileSetRef' => {
+          'localName' => 'vivado_hls_impl_vhdl_fileset'
+        },
+        'language' => 'VHDL',
+        'name' => 'xilinx_vhdlsynthesis'
+      },
+      {
+        'envIdentifier' => 'verilogSource:sysgen.xilinx.com:synthesis',
+        'fileSetRef' => {
+          'localName' => 'vivado_hls_sim_verilog_fileset'
+        },
+        'language' => 'VERILOG',
+        'name' => 'xilinx_verilogsimulation'
+      },
+      {
+        'envIdentifier' => 'vhdlSource:sysgen.xilinx.com:synthesis',
+        'fileSetRef' => {
+          'localName' => 'vivado_hls_sim_vhdl_fileset'
+        },
+        'language' => 'VHDL',
+        'name' => 'xilinx_vhdlsimulation'
+      }
+    ]
+  },
+  'name' => 'neural_network',
+  'vendor' => 'xilinx.com',
+  'version' => '1.0'
+}
